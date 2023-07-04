@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 100px;
+}
+.container {
+  width: 70vw;
+  margin: auto;
+}
+.fpersonal {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  padding: 25px 5%;
+  overflow: hidden;
+}
+.details {
+  margin-left: px;
+  flex-basis: 70%;
+}
+.Image {
+  flex-basis: 20%;
+  align-items: center;
+  vertical-align: middle;
+  border-style: none;
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.table {
+  border-collapse: collapse;
+}
+
+.cell_padd {
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-right: none;
+  border-left: none;
+  padding: 15px 0;
+  text-align: left;
+}
+.cell_padd2 {
+  padding: 15px 100px 15px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-right: none;
+  border-left: none;
+  padding: 15px 0;
+  text-align: left;
+}
+
+.Image img {
+  width: 147px;
+}
+h2 {
+  color: #ff0000;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 16px 0;
+}
+.table_sec {
+  width: 100%;
+  border: 1px solid #808080;
+}
+.table_sec thead th,
+.table_sec tbody td {
+  padding: 10px 10px;
+}
+.table_heading {
+  border-bottom: 2px solid rgb(231, 163, 7);
+  text-align: left;
+}
+.bordr_row {
+  background: #cdc8c8;
+  border: none;
+  border-collapse: collapse;
+}
